@@ -7,15 +7,16 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>Construction</title>
+    <title>Poyntz Construction</title>
+      
+    <link rel="icon" href="images/Poyntz-ConstructionICON.png">
 
     <!-- CSS only -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
       integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
 
     <!--Theme Styles CSS-->
     <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
@@ -186,6 +187,9 @@
             <li class="nav-item">
               <a href="testimonial.html" class="nav-link">Testimonial</a>
             </li>
+            <li class="nav-item">
+              <a href="testimonial.html" class="nav-link">Awards</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -197,10 +201,7 @@
         <div
           class="slider-item"
           style="
-            background-image: url(images/aerial-view-of-buildigns-1642125.jpg);
-          "
-          data-stellar-background-ratio="0.5"
-        >
+            background-image: url(images/aerial-view-of-buildigns-1642125.jpg);"data-stellar-background-ratio="0.5">
           <div class="overlay"></div>
           <div class="container">
             <div
@@ -423,8 +424,7 @@
             <h6><img src="images/last.png" width="150px; " /></h6>
             <br />
             <p>
-              Here you can use rows and columns to organize your footer content.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
             </p>
           </div>
           <!-- Grid column -->
@@ -482,6 +482,12 @@
         </p>
       </div>
       <!-- Footer Links -->
+        
+    <!--gototop button -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+            <i class="fa fa-arrow-up"></i>
+        </button>
+        
     </footer>
     <!-- Footer -->
 
@@ -489,19 +495,35 @@
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
+      
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
       integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
+      
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
 
+    <!-- go totop button script-->
+     <script>
+           window.onscroll = function() {scrollFunction()};
+
+           function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                 document.getElementById("myBtn").style.display = "block";
+              } else {
+                 document.getElementById("myBtn").style.display = "none";
+              }
+           }
+
+           function topFunction() {
+              $('html,body').animate({ scrollTop: 0 }, 800);
+           }
+    </script>
+      
     <script src="https://kit.fontawesome.com/yourcode.js"></script>
 
     <script src="js/jquery.min.js"></script>

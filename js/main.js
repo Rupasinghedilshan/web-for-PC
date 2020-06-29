@@ -137,9 +137,7 @@
     fixedContentPos: false
   });
 
-    
-
-    
+ 
 
   var counter = function() {
 		
@@ -202,8 +200,6 @@
 		} , { offset: '95%' } );
 	};
 	contentWayPoint();
-    
-    
     
 
 })(jQuery);

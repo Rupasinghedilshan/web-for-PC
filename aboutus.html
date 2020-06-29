@@ -9,6 +9,8 @@
     />
     <title>Construction</title>
 
+    <link rel="icon" href="images/Poyntz-ConstructionICON.png">
+      
     <!-- CSS only -->
     <link
       rel="stylesheet"
@@ -183,6 +185,9 @@
             </li>
             <li class="nav-item">
               <a href="testimonial.html" class="nav-link">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a href="testimonial.html" class="nav-link">Awards</a>
             </li>
           </ul>
         </div>
@@ -468,8 +473,7 @@
             <h6><img src="images/last.png" width="150px; " /></h6>
             <br />
             <p>
-              Here you can use rows and columns to organize your footer content.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
             </p>
           </div>
           <!-- Grid column -->
@@ -527,12 +531,36 @@
         </p>
       </div>
       <!-- Footer Links -->
+        
+    <!--gototop button -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+            <i class="fa fa-arrow-up"></i>
+        </button>    
+    
     </footer>
     <!-- Footer -->
 
-    <!--Go to top -->
 
+      
     <!-- JS, Popper.js, and jQuery -->
+    
+    <!-- go totop button script-->
+     <script>
+           window.onscroll = function() {scrollFunction()};
+
+           function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                 document.getElementById("myBtn").style.display = "block";
+              } else {
+                 document.getElementById("myBtn").style.display = "none";
+              }
+           }
+
+           function topFunction() {
+              $('html,body').animate({ scrollTop: 0 }, 800);
+           }
+    </script>
+      
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

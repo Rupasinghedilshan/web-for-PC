@@ -8,7 +8,8 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>Construction</title>
-
+    <link rel="icon" href="images/Poyntz-ConstructionICON.png">
+      
     <!-- CSS only -->
     <link
       rel="stylesheet"
@@ -194,6 +195,9 @@
             <li class="nav-item">
               <a href="testimonial.html" class="nav-link">Testimonial</a>
             </li>
+            <li class="nav-item">
+              <a href="testimonial.html" class="nav-link">Awards</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -351,13 +355,9 @@
           </div>
           <div class="col-sm-6 col-md-4">
             <a
-              class="lightbox"
-              href="images/bird-s-eye-view-of-three-houses-1546166.jpg"
-            >
-              <img
-                src="images/bird-s-eye-view-of-three-houses-1546166.jpg"
-                alt="Rocks"
-              />
+                class="lightbox"
+                href="images/bird-s-eye.jpg">
+                <img src="images/bird-s-eye.jpg" alt=""/>
             </a>
           </div>
           <div class="col-sm-6 col-md-4">
@@ -445,13 +445,9 @@
           </div>
           <div class="col-sm-6 col-md-4">
             <a
-              class="lightbox"
-              href="images/bird-s-eye-view-of-three-houses-1546166.jpg"
-            >
-              <img
-                src="images/bird-s-eye-view-of-three-houses-1546166.jpg"
-                alt="Rocks"
-              />
+                class="lightbox"
+                href="images/bird-s-eye.jpg">
+                <img src="images/bird-s-eye.jpg" alt=""/>
             </a>
           </div>
           <div class="col-sm-6 col-md-4">
@@ -539,12 +535,8 @@
             <div class="col-sm-6 col-md-4">
               <a
                 class="lightbox"
-                href="images/bird-s-eye-view-of-three-houses-1546166.jpg"
-              >
-                <img
-                  src="images/bird-s-eye-view-of-three-houses-1546166.jpg"
-                  alt="Rocks"
-                />
+                href="images/bird-s-eye.jpg">
+                <img src="images/bird-s-eye.jpg" alt=""/>
               </a>
             </div>
             <div class="col-sm-6 col-md-4">
@@ -633,12 +625,8 @@
             <div class="col-sm-6 col-md-4">
               <a
                 class="lightbox"
-                href="images/bird-s-eye-view-of-three-houses-1546166.jpg"
-              >
-                <img
-                  src="images/bird-s-eye-view-of-three-houses-1546166.jpg"
-                  alt="Rocks"
-                />
+                href="images/bird-s-eye.jpg">
+                <img src="images/bird-s-eye.jpg" alt=""/>
               </a>
             </div>
             <div class="col-sm-6 col-md-4">
@@ -727,12 +715,8 @@
             <div class="col-sm-6 col-md-4">
               <a
                 class="lightbox"
-                href="images/bird-s-eye-view-of-three-houses-1546166.jpg"
-              >
-                <img
-                  src="images/bird-s-eye-view-of-three-houses-1546166.jpg"
-                  alt="Rocks"
-                />
+                href="images/bird-s-eye.jpg">
+                <img src="images/bird-s-eye.jpg" alt=""/>
               </a>
             </div>
             <div class="col-sm-6 col-md-4">
@@ -821,12 +805,8 @@
             <div class="col-sm-6 col-md-4">
               <a
                 class="lightbox"
-                href="images/bird-s-eye-view-of-three-houses-1546166.jpg"
-              >
-                <img
-                  src="images/bird-s-eye-view-of-three-houses-1546166.jpg"
-                  alt="Rocks"
-                />
+                href="images/bird-s-eye.jpg">
+                <img src="images/bird-s-eye.jpg" alt=""/>
               </a>
             </div>
             <div class="col-sm-6 col-md-4">
@@ -915,12 +895,8 @@
             <div class="col-sm-6 col-md-4">
               <a
                 class="lightbox"
-                href="images/bird-s-eye-view-of-three-houses-1546166.jpg"
-              >
-                <img
-                  src="images/bird-s-eye-view-of-three-houses-1546166.jpg"
-                  alt="Rocks"
-                />
+                href="images/bird-s-eye.jpg">
+                <img src="images/bird-s-eye.jpg" alt=""/>
               </a>
             </div>
             <div class="col-sm-6 col-md-4">
@@ -963,8 +939,7 @@
             <h6><img src="images/last.png" width="150px; " /></h6>
             <br />
             <p>
-              Here you can use rows and columns to organize your footer content.
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.
             </p>
           </div>
           <!-- Grid column -->
@@ -1022,6 +997,12 @@
         </p>
       </div>
       <!-- Footer Links -->
+        
+    <!--gototop button -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+            <i class="fa fa-arrow-up"></i>
+        </button>
+        
     </footer>
     <!-- Footer -->
 
@@ -1041,7 +1022,24 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    
+    <!-- go totop button script-->
+     <script>
+           window.onscroll = function() {scrollFunction()};
 
+           function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                 document.getElementById("myBtn").style.display = "block";
+              } else {
+                 document.getElementById("myBtn").style.display = "none";
+              }
+           }
+
+           function topFunction() {
+              $('html,body').animate({ scrollTop: 0 }, 800);
+           }
+    </script>
+      
     <script src="https://kit.fontawesome.com/yourcode.js"></script>
 
     <script src="js/jquery.min.js"></script>
